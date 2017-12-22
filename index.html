@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://getbootstrap.com/docs/3.3/examples/dashboard/ -->
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dashboard Assignment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- custom css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/_custom.css">
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div id="navbar" class="navbar-collapse collapse" style="float: right;">
+          <ul class="nav navbar-nav navbar-right">
+             <li><a href="#"><i class="fa fa-bell-o"></i><sup class="tag">4</sup></a></li>
+             <li><a href="#"><i class="fa fa-ellipsis-v" id="slide_toggle1"></i></a></li>
+          </ul>
+          <form class="navbar-form navbar-right navbar-mobile">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>    
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span style="padding-right: 40px;"><i class="fa fa-align-justify" id="slide_toggle"></i></i></span>UNIKWAN</a>
+        </div>
+        
+        <form class="navbar-form navbar-form1" style=" width: 350px;margin: 0 auto;text-align: center;">
+            <span class="fa fa-search" style="left: 10%;color: #fff"></span>
+            <input type="text" class="form-control form-control1" placeholder="Search..." style="width: 350px;background-color: #44bbcb;color: #fff">
+          </form>
+        
+      </div>
+    </nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar" id="sidebar_div">
+          <ul class="nav nav-sidebar" style="background-image: url(assets/img/style.png);margin-top: -20px;margin-bottom: 0px;">
+
+            <li><a href="#"><img src="assets/img/icon_04.png" width="50" height="50" class="img-responsive" alt="Generic placeholder thumbnail"><b style="color:black">Suhas U</b><br/><span style="color: black;opacity: 0.7;">suhas@unikwan@.com</span><i class="fa fa-caret-down" style="color: black;padding: 14px 0px 0px 23px;opacity: 0.6;"></i><span class="sr-only">(current)</span></a></li>
+           
+          </ul>
+          <ul class="nav nav-sidebar">
+           
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="#"><i class="fa fa-life-bouy"></i>Dashboard</a></li>
+            <li><a href="#"><i class="fa fa-th"></i>Projects<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-life-bouy"></i>Platform<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Sales<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-desktop"></i>Reports<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-pencil"></i>Statements<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-line-chart"></i>Analytics<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-crosshairs"></i>Expences<i class="fa fa-chevron-right pull-right"></i></a></li>
+            <li><a href="#"><i class="fa fa-smile-o"></i>Users<i class="fa fa-chevron-right pull-right"></i></a></li>
+          </ul>
+          <ul class="nav nav-sidebar" style="border-top: 1px solid #5b5b5b;">
+            <li style="padding-top: 30px;"><a href="#"><b>Unikwan ©</b></a></li>
+            <li style="padding-bottom: 30px;"><a href="#" style="color: #1278b8"><b>Privacy & Policy</b></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-md-2" id="sidebar_div1">
+          <ul class="nav nav-sidebar"margin-top: -20px;margin-bottom: 0px;">
+            <h4 style="padding-left: 20px;">NEW MESSAGES</h4>
+
+            <li><a href="#" style="display: -webkit-inline-box;width: 100%"><img src="assets/img/icon_04.png" width="50" height="50" class="img-responsive" alt="Generic placeholder thumbnail"><p class="p-sidebar"><b>Ned Flanders</b><br/>3 hours ago</p></a></li>
+            <li><a href="#" style="display: -webkit-inline-box;width: 100%"><img src="assets/img/icon_03.png" width="50" height="50" class="img-responsive" alt="Generic placeholder thumbnail"><p class="p-sidebar"><b>Peter Griffin</b><br/>4 hours ago</p></a></li>
+            <li><a href="#" style="display: -webkit-inline-box;width: 100%"><img src="assets/img/icon_02.png" width="50" height="50" class="img-responsive" alt="Generic placeholder thumbnail"><p class="p-sidebar"><b>Lisa Simpson</b><br/>6 hours ago</p></a></li>
+            <li><a href="#" style="display: -webkit-inline-box;width: 100%"><img src="assets/img/icon_01.png" width="50" height="50" class="img-responsive" alt="Generic placeholder thumbnail"><p class="p-sidebar"><b>Marry Monalisa</b><br/>8 hours ago</p></a></li>
+           
+          </ul>
+          <h4 style="padding-left: 20px;">EVENTS</h4>
+          <ul class="nav nav-sidebar">
+             <li style="line-height: 18px"><a href="#" ><p class="p-sidebar p-sidebar1"><b>Team Scrum</b><span class="pull-right tag12">12</span></p></a></li>
+             <li style="line-height: 18px"><a href="#" ><p class="p-sidebar p-sidebar1"><b>Google I/O</b></p></a></li>
+             <li style="opacity: 0.6"><a href="#" ><p class="p-sidebar p-sidebar1"><b>No more Events scheduled</b></p></a></li>
+             
+           
+          </ul>
+          <h4 style="padding-left: 20px;">STATS<i class="fa fa-line-chart pull-right"></i></h4>
+          <ul class="nav nav-sidebar">
+              <img src="assets/img/polygone.png" height="200px" width="200px;" class="img-responsive" style="padding-left: 40px !important" alt="Generic placeholder thumbnail">
+          </ul>
+         
+        </div>
+       <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 main">
+
+          <!-- Panels -->
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="panel panel-default chart_bg" style="background-image: url(assets/img/chart.png);">
+                <div class="panel-body">
+                  <h4 class=""><span class="panel-subheading">SALES</span><button class="btn btn-info btn-xs" style="float: right;">gross</button></h4>
+                  <div class="panel-content">
+                    <h3 style="margin-bottom: 25px;">$48,190 <span style="font-size: 20px;">This week</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default chart_bg" style="background-image: url(assets/img/chart.png);">
+                <div class="panel-body">
+                  <h4 class=""><span class="panel-subheading">PAGE VIEW</span><i style="color: #1bacbf;float: right;" class="fa fa-ellipsis-v"></i></button></h4>
+                  <div class="panel-content">
+                    <h3 style="margin-bottom: 25px;">$48,190 <span style="font-size: 20px;">This week</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="panel panel-default chart_bg" style="background-image: url(assets/img/bar.png);background-size: 100%;background-position: 0px 108%;padding-left: 0px;padding-right: 0px;">
+                <div class="panel-body">
+                  <h4 class=""><span class="panel-subheading">REPORTS</span></h4>
+                  <div class="panel-content">
+                    <h3 style="margin-bottom: 25px;">$48,190 <span style="font-size: 20px;">This week</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-xs-12">
+                <div class="panel panel-default">
+                <div class="row" style="padding: 20px;padding-bottom: 0px;">
+                  <div class="col-xs-6">
+                    <h4 class="panel-heading" style="background: transparent;border: none;">Invoice</h4>
+                  </div>
+                  <div class="col-xs-6" style="text-align: right;">
+                    <form class="navbar-form" role="search">
+                      <div class="input-group add-on">
+                        <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text" style="width: 70px;border-radius: 20px;background: #f1f1f1">
+                        <div class="input-group-btn">
+                          
+                        </div>
+                      </div>
+                    </form>     
+                  </div>
+                </div>        
+                  <div class="panel-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>ID</th>
+                          <th>Payment Type</th>
+                          <th>Company</th>
+                          <th>Date</th>
+                          <th>Progress</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">#203</th>
+                          <td>Paypal</td>
+                          <td>Curabitur Libero Corp</td>
+                          <td>Dec 16, 18:12</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$5430</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#203</th>
+                          <td>Paypal</td>
+                          <td>Curabitur Libero Corp</td>
+                          <td>Dec 16, 18:12</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$5430</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#202</th>
+                          <td>American Express</td>
+                          <td>Integer Mattis Liumited</td>
+                          <td>Nov 29, 13:56</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$1400</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#200</th>
+                          <td>Discover</td>
+                          <td>Palentesque Inc</td>
+                          <td>Nov 17, 19:14</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$1250</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#199</th>
+                          <td>Mastercard</td>
+                          <td>Curabitur Libero Corp</td>
+                          <td>Oct 21, 18:12</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$1399</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#203</th>
+                          <td>Amex</td>
+                          <td>Integer Mattis Liumited</td>
+                          <td>Dec 16, 18:12</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$980</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">#203</th>
+                          <td>Paypal</td>
+                          <td>Palentesque Inc</td>
+                          <td>Dec 16, 18:12</td>
+                          <td><img class="progress-chart" src="assets/img/Shape 1.png"></td>
+                          <td>$670</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>    
+              </div>
+              </div>
+              
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="row">
+          <div id="validationForm">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/jquery.min.js"><\/script>')</script>
+    <script src="assets//js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function(){
+            $("#slide_toggle").click(function(){
+                $("#sidebar_div").animate({
+                    width: "toggle"
+                },100);
+            });
+            $('#validationForm').append(`<form name="myform"  method="post" action="#" onsubmit="return validateemail(event);">  
+            <div class="form-group">Email: <input type="email" class="form-control" required name="email"><div><br/>  
+              <div class="form-group">Password: <input class="form-control" type="password" required name="password"></div><br/> 
+            <input type="submit" value="Sign In">  
+            </form> `);
+        });
+       $(document).ready(function(){
+            $("#slide_toggle1").click(function(){
+                $("#sidebar_div1").animate({
+                    width: "toggle"
+                },100);
+            });
+        });
+
+
+    </script>
+     <script>  
+      function validateemail(event)  
+      {  
+        event.preventDefault();
+        var email=document.myform.email.value;
+        var password=document.myform.password.value;  
+        var atposition=email.indexOf("@");  
+        var dotposition=email.lastIndexOf(".");  
+        if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
+          alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+          return false;  
+          }  
+        else if(password.length<6){  
+          alert("Password must be at least 6 characters long.");  
+          return false;  
+        } else {
+          alert("Successfully Loged In.");
+        }
+      }  
+
+
+      </script>  
+</body></html>
